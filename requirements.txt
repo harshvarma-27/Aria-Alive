@@ -1,0 +1,9 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+sqlalchemy==2.0.30
+requests==2.32.3
+python-dotenv==1.0.1
+pyd
+flask
+gunicorn==21.2.0
+

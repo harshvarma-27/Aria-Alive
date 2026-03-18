@@ -1,0 +1,5086 @@
+{
+    "pollutant_sensitivity_matrix": {
+        "Child (0-12)": {
+            "Healthy": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 1.0,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Asthma": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "COPD": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchitis": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Tuberculosis": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pneumonia": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Interstitial Lung Disease": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchiolitis obliterans": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Silicosis / Occupational lung disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-COVID pulmonary sequelae": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Lung Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Oral / Oropharyngeal Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Esophageal / Gastric Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Leukemia (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Ischemic Heart Disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Heart Failure": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Arrhythmia": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Hypertension": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Stroke survivor": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Atherosclerosis / Peripheral Vascular Disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Diabetes Type 2": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Obesity / Metabolic Syndrome": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Kidney Disease (CKD)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.7,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Anemia": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Liver Disease / Hepatitis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Thyroid Disorders": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "PCOS / Reproductive endocrine": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Low birth weight risk (maternal)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Neonatal / Infant respiratory distress": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "HIV / AIDS (immune compromised)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-infectious bronchiolitis / Bronchiectasis": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Viral respiratory infection recovery (incl. influenza, RSV)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dengue / Malaria recovery (weakened)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Ear / Sinus disease": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Allergic Rhinitis / Sinusitis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eczema / Severe dermatitis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Migraine / Chronic headaches": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Depression / Anxiety": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dementia / Alzheimer's": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Parkinson's Disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Epilepsy": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Rheumatoid Arthritis / Autoimmune disorders": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Autoimmune disorders (Lupus etc.)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-chemotherapy (weakened immunity)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Occupational COPD / Emphysema (workers)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Smoker / Ex-smoker": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Fatigue / Fibromyalgia": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Skin diseases (psoriasis)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eye conditions (chronic conjunctivitis / cataract risk)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            }
+        },
+        "Teen (13-19)": {
+            "Healthy": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 75,
+                    "NO2": 19,
+                    "SO2": 30,
+                    "CO": 3.0
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 1.0,
+                    "combined_multiplier": 0.75,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Asthma": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.95
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.488,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "COPD": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchitis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.95
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.488,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Tuberculosis": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pneumonia": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Interstitial Lung Disease": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchiolitis obliterans": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Silicosis / Occupational lung disease": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-COVID pulmonary sequelae": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.95
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.488,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Lung Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Oral / Oropharyngeal Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Esophageal / Gastric Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Leukemia (survivor)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Ischemic Heart Disease": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Heart Failure": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Arrhythmia": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Hypertension": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Stroke survivor": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Atherosclerosis / Peripheral Vascular Disease": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Diabetes Type 2": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 64,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.55
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.637,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Obesity / Metabolic Syndrome": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 64,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.55
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.637,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Kidney Disease (CKD)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 52,
+                    "NO2": 13,
+                    "SO2": 21,
+                    "CO": 2.1
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.7,
+                    "combined_multiplier": 0.525,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Anemia": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Liver Disease / Hepatitis": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 64,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.55
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.637,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Thyroid Disorders": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "PCOS / Reproductive endocrine": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Low birth weight risk (maternal)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Neonatal / Infant respiratory distress": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "HIV / AIDS (immune compromised)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-infectious bronchiolitis / Bronchiectasis": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 17,
+                    "O3": 38,
+                    "NO2": 9,
+                    "SO2": 15,
+                    "CO": 1.5
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.375,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Viral respiratory infection recovery (incl. influenza, RSV)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.95
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.488,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dengue / Malaria recovery (weakened)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.95
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.488,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Ear / Sinus disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.25
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.562,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Allergic Rhinitis / Sinusitis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.25
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.562,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eczema / Severe dermatitis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.25
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.562,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Migraine / Chronic headaches": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 30,
+                    "O3": 68,
+                    "NO2": 17,
+                    "SO2": 27,
+                    "CO": 2.7
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.675,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Depression / Anxiety": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 30,
+                    "O3": 68,
+                    "NO2": 17,
+                    "SO2": 27,
+                    "CO": 2.7
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.675,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dementia / Alzheimer's": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 64,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.55
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.637,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Parkinson's Disease": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 64,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.55
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.637,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Epilepsy": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 64,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.55
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.637,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Rheumatoid Arthritis / Autoimmune disorders": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Autoimmune disorders (Lupus etc.)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-chemotherapy (weakened immunity)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Occupational COPD / Emphysema (workers)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Smoker / Ex-smoker": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.95
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.488,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Fatigue / Fibromyalgia": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Skin diseases (psoriasis)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.25
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.562,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eye conditions (chronic conjunctivitis / cataract risk)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.75,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            }
+        },
+        "Adult (20-39)": {
+            "Healthy": {
+                "thresholds": {
+                    "PM2.5": 15,
+                    "PM10": 45,
+                    "O3": 100,
+                    "NO2": 25,
+                    "SO2": 40,
+                    "CO": 4.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 1.0,
+                    "combined_multiplier": 1.0,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Asthma": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 65,
+                    "NO2": 16,
+                    "SO2": 26,
+                    "CO": 2.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.65,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "COPD": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchitis": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 65,
+                    "NO2": 16,
+                    "SO2": 26,
+                    "CO": 2.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.65,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Tuberculosis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pneumonia": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Interstitial Lung Disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchiolitis obliterans": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Silicosis / Occupational lung disease": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-COVID pulmonary sequelae": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 65,
+                    "NO2": 16,
+                    "SO2": 26,
+                    "CO": 2.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.65,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Lung Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Oral / Oropharyngeal Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Esophageal / Gastric Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Leukemia (survivor)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Ischemic Heart Disease": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Heart Failure": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Arrhythmia": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Hypertension": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Stroke survivor": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Atherosclerosis / Peripheral Vascular Disease": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Diabetes Type 2": {
+                "thresholds": {
+                    "PM2.5": 13,
+                    "PM10": 38,
+                    "O3": 85,
+                    "NO2": 21,
+                    "SO2": 34,
+                    "CO": 3.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.85,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Obesity / Metabolic Syndrome": {
+                "thresholds": {
+                    "PM2.5": 13,
+                    "PM10": 38,
+                    "O3": 85,
+                    "NO2": 21,
+                    "SO2": 34,
+                    "CO": 3.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.85,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Kidney Disease (CKD)": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 31,
+                    "O3": 70,
+                    "NO2": 18,
+                    "SO2": 28,
+                    "CO": 2.8
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.7,
+                    "combined_multiplier": 0.7,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Anemia": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Liver Disease / Hepatitis": {
+                "thresholds": {
+                    "PM2.5": 13,
+                    "PM10": 38,
+                    "O3": 85,
+                    "NO2": 21,
+                    "SO2": 34,
+                    "CO": 3.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.85,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Thyroid Disorders": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "PCOS / Reproductive endocrine": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Low birth weight risk (maternal)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Neonatal / Infant respiratory distress": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "HIV / AIDS (immune compromised)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-infectious bronchiolitis / Bronchiectasis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 22,
+                    "O3": 50,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 2.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.5,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Viral respiratory infection recovery (incl. influenza, RSV)": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 65,
+                    "NO2": 16,
+                    "SO2": 26,
+                    "CO": 2.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.65,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dengue / Malaria recovery (weakened)": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 65,
+                    "NO2": 16,
+                    "SO2": 26,
+                    "CO": 2.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.65,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Ear / Sinus disease": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 75,
+                    "NO2": 19,
+                    "SO2": 30,
+                    "CO": 3.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.75,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Allergic Rhinitis / Sinusitis": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 75,
+                    "NO2": 19,
+                    "SO2": 30,
+                    "CO": 3.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.75,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eczema / Severe dermatitis": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 75,
+                    "NO2": 19,
+                    "SO2": 30,
+                    "CO": 3.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.75,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Migraine / Chronic headaches": {
+                "thresholds": {
+                    "PM2.5": 14,
+                    "PM10": 40,
+                    "O3": 90,
+                    "NO2": 22,
+                    "SO2": 36,
+                    "CO": 3.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.9,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Depression / Anxiety": {
+                "thresholds": {
+                    "PM2.5": 14,
+                    "PM10": 40,
+                    "O3": 90,
+                    "NO2": 22,
+                    "SO2": 36,
+                    "CO": 3.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.9,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dementia / Alzheimer's": {
+                "thresholds": {
+                    "PM2.5": 13,
+                    "PM10": 38,
+                    "O3": 85,
+                    "NO2": 21,
+                    "SO2": 34,
+                    "CO": 3.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.85,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Parkinson's Disease": {
+                "thresholds": {
+                    "PM2.5": 13,
+                    "PM10": 38,
+                    "O3": 85,
+                    "NO2": 21,
+                    "SO2": 34,
+                    "CO": 3.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.85,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Epilepsy": {
+                "thresholds": {
+                    "PM2.5": 13,
+                    "PM10": 38,
+                    "O3": 85,
+                    "NO2": 21,
+                    "SO2": 34,
+                    "CO": 3.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.85,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Rheumatoid Arthritis / Autoimmune disorders": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Autoimmune disorders (Lupus etc.)": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-chemotherapy (weakened immunity)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Occupational COPD / Emphysema (workers)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Smoker / Ex-smoker": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 29,
+                    "O3": 65,
+                    "NO2": 16,
+                    "SO2": 26,
+                    "CO": 2.6
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.65,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Fatigue / Fibromyalgia": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Skin diseases (psoriasis)": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 75,
+                    "NO2": 19,
+                    "SO2": 30,
+                    "CO": 3.0
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.75,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eye conditions (chronic conjunctivitis / cataract risk)": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 80,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.2
+                },
+                "metadata": {
+                    "age_multiplier": 1.0,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.8,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            }
+        },
+        "Middle-aged (40-59)": {
+            "Healthy": {
+                "thresholds": {
+                    "PM2.5": 14,
+                    "PM10": 40,
+                    "O3": 90,
+                    "NO2": 22,
+                    "SO2": 36,
+                    "CO": 3.6
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 1.0,
+                    "combined_multiplier": 0.9,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Asthma": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 26,
+                    "O3": 58,
+                    "NO2": 15,
+                    "SO2": 23,
+                    "CO": 2.34
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.585,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "COPD": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchitis": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 26,
+                    "O3": 58,
+                    "NO2": 15,
+                    "SO2": 23,
+                    "CO": 2.34
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.585,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Tuberculosis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pneumonia": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Interstitial Lung Disease": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchiolitis obliterans": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Silicosis / Occupational lung disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-COVID pulmonary sequelae": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 26,
+                    "O3": 58,
+                    "NO2": 15,
+                    "SO2": 23,
+                    "CO": 2.34
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.585,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Lung Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Oral / Oropharyngeal Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Esophageal / Gastric Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Leukemia (survivor)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Ischemic Heart Disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Heart Failure": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Arrhythmia": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Hypertension": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Stroke survivor": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Atherosclerosis / Peripheral Vascular Disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Diabetes Type 2": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 76,
+                    "NO2": 19,
+                    "SO2": 31,
+                    "CO": 3.06
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.765,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Obesity / Metabolic Syndrome": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 76,
+                    "NO2": 19,
+                    "SO2": 31,
+                    "CO": 3.06
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.765,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Kidney Disease (CKD)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 28,
+                    "O3": 63,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.52
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.7,
+                    "combined_multiplier": 0.63,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Anemia": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Liver Disease / Hepatitis": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 76,
+                    "NO2": 19,
+                    "SO2": 31,
+                    "CO": 3.06
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.765,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Thyroid Disorders": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "PCOS / Reproductive endocrine": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Low birth weight risk (maternal)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Neonatal / Infant respiratory distress": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "HIV / AIDS (immune compromised)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-infectious bronchiolitis / Bronchiectasis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Viral respiratory infection recovery (incl. influenza, RSV)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 26,
+                    "O3": 58,
+                    "NO2": 15,
+                    "SO2": 23,
+                    "CO": 2.34
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.585,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dengue / Malaria recovery (weakened)": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 26,
+                    "O3": 58,
+                    "NO2": 15,
+                    "SO2": 23,
+                    "CO": 2.34
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.585,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Ear / Sinus disease": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 30,
+                    "O3": 68,
+                    "NO2": 17,
+                    "SO2": 27,
+                    "CO": 2.7
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.675,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Allergic Rhinitis / Sinusitis": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 30,
+                    "O3": 68,
+                    "NO2": 17,
+                    "SO2": 27,
+                    "CO": 2.7
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.675,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eczema / Severe dermatitis": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 30,
+                    "O3": 68,
+                    "NO2": 17,
+                    "SO2": 27,
+                    "CO": 2.7
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.675,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Migraine / Chronic headaches": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 81,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.81,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Depression / Anxiety": {
+                "thresholds": {
+                    "PM2.5": 12,
+                    "PM10": 36,
+                    "O3": 81,
+                    "NO2": 20,
+                    "SO2": 32,
+                    "CO": 3.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.81,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dementia / Alzheimer's": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 76,
+                    "NO2": 19,
+                    "SO2": 31,
+                    "CO": 3.06
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.765,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Parkinson's Disease": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 76,
+                    "NO2": 19,
+                    "SO2": 31,
+                    "CO": 3.06
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.765,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Epilepsy": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 34,
+                    "O3": 76,
+                    "NO2": 19,
+                    "SO2": 31,
+                    "CO": 3.06
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.765,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Rheumatoid Arthritis / Autoimmune disorders": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Autoimmune disorders (Lupus etc.)": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-chemotherapy (weakened immunity)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Occupational COPD / Emphysema (workers)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Smoker / Ex-smoker": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 26,
+                    "O3": 58,
+                    "NO2": 15,
+                    "SO2": 23,
+                    "CO": 2.34
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.585,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Fatigue / Fibromyalgia": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Skin diseases (psoriasis)": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 30,
+                    "O3": 68,
+                    "NO2": 17,
+                    "SO2": 27,
+                    "CO": 2.7
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.675,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eye conditions (chronic conjunctivitis / cataract risk)": {
+                "thresholds": {
+                    "PM2.5": 11,
+                    "PM10": 32,
+                    "O3": 72,
+                    "NO2": 18,
+                    "SO2": 29,
+                    "CO": 2.88
+                },
+                "metadata": {
+                    "age_multiplier": 0.9,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.72,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            }
+        },
+        "Elderly (60+)": {
+            "Healthy": {
+                "thresholds": {
+                    "PM2.5": 10,
+                    "PM10": 31,
+                    "O3": 70,
+                    "NO2": 18,
+                    "SO2": 28,
+                    "CO": 2.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 1.0,
+                    "combined_multiplier": 0.7,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Asthma": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 46,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.82
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.455,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "COPD": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchitis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 46,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.82
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.455,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Tuberculosis": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pneumonia": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Interstitial Lung Disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchiolitis obliterans": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Silicosis / Occupational lung disease": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-COVID pulmonary sequelae": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 46,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.82
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.455,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Lung Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Oral / Oropharyngeal Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Esophageal / Gastric Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Leukemia (survivor)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Ischemic Heart Disease": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Heart Failure": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Arrhythmia": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Hypertension": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Stroke survivor": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Atherosclerosis / Peripheral Vascular Disease": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Diabetes Type 2": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.38
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.595,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Obesity / Metabolic Syndrome": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.38
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.595,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Kidney Disease (CKD)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 49,
+                    "NO2": 12,
+                    "SO2": 20,
+                    "CO": 1.96
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.7,
+                    "combined_multiplier": 0.49,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Anemia": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Liver Disease / Hepatitis": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.38
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.595,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Thyroid Disorders": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "PCOS / Reproductive endocrine": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Low birth weight risk (maternal)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Neonatal / Infant respiratory distress": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "HIV / AIDS (immune compromised)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-infectious bronchiolitis / Bronchiectasis": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 35,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.35,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Viral respiratory infection recovery (incl. influenza, RSV)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 46,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.82
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.455,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dengue / Malaria recovery (weakened)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 46,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.82
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.455,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Ear / Sinus disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 52,
+                    "NO2": 13,
+                    "SO2": 21,
+                    "CO": 2.1
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.525,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Allergic Rhinitis / Sinusitis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 52,
+                    "NO2": 13,
+                    "SO2": 21,
+                    "CO": 2.1
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.525,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eczema / Severe dermatitis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 52,
+                    "NO2": 13,
+                    "SO2": 21,
+                    "CO": 2.1
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.525,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Migraine / Chronic headaches": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 28,
+                    "O3": 63,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.52
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.63,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Depression / Anxiety": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 28,
+                    "O3": 63,
+                    "NO2": 16,
+                    "SO2": 25,
+                    "CO": 2.52
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.63,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dementia / Alzheimer's": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.38
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.595,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Parkinson's Disease": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.38
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.595,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Epilepsy": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.38
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.595,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Rheumatoid Arthritis / Autoimmune disorders": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Autoimmune disorders (Lupus etc.)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-chemotherapy (weakened immunity)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Occupational COPD / Emphysema (workers)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Smoker / Ex-smoker": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 46,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.82
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.455,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Fatigue / Fibromyalgia": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Skin diseases (psoriasis)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 52,
+                    "NO2": 13,
+                    "SO2": 21,
+                    "CO": 2.1
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.525,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eye conditions (chronic conjunctivitis / cataract risk)": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 25,
+                    "O3": 56,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.24
+                },
+                "metadata": {
+                    "age_multiplier": 0.7,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.56,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            }
+        },
+        "Pregnant (any adult age)": {
+            "Healthy": {
+                "thresholds": {
+                    "PM2.5": 9,
+                    "PM10": 27,
+                    "O3": 60,
+                    "NO2": 15,
+                    "SO2": 24,
+                    "CO": 2.4
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 1.0,
+                    "combined_multiplier": 0.6,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Asthma": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "COPD": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchitis": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Tuberculosis": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pneumonia": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Interstitial Lung Disease": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Bronchiolitis obliterans": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Silicosis / Occupational lung disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-COVID pulmonary sequelae": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Lung Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Oral / Oropharyngeal Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Esophageal / Gastric Cancer (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Leukemia (survivor)": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Ischemic Heart Disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Heart Failure": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Arrhythmia": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Hypertension": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Stroke survivor": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Atherosclerosis / Peripheral Vascular Disease": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Diabetes Type 2": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Obesity / Metabolic Syndrome": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Kidney Disease (CKD)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 19,
+                    "O3": 42,
+                    "NO2": 10,
+                    "SO2": 17,
+                    "CO": 1.68
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.7,
+                    "combined_multiplier": 0.42,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Anemia": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Liver Disease / Hepatitis": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Thyroid Disorders": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "PCOS / Reproductive endocrine": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pregnancy \u2014 general": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pregnancy \u2014 gestational diabetes / hypertension": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Low birth weight risk (maternal)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Neonatal / Infant respiratory distress": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "HIV / AIDS (immune compromised)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-infectious bronchiolitis / Bronchiectasis": {
+                "thresholds": {
+                    "PM2.5": 4,
+                    "PM10": 14,
+                    "O3": 30,
+                    "NO2": 8,
+                    "SO2": 12,
+                    "CO": 1.2
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.5,
+                    "combined_multiplier": 0.3,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Viral respiratory infection recovery (incl. influenza, RSV)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dengue / Malaria recovery (weakened)": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Ear / Sinus disease": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Allergic Rhinitis / Sinusitis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eczema / Severe dermatitis": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Migraine / Chronic headaches": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Depression / Anxiety": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 24,
+                    "O3": 54,
+                    "NO2": 14,
+                    "SO2": 22,
+                    "CO": 2.16
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.9,
+                    "combined_multiplier": 0.54,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Dementia / Alzheimer's": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Parkinson's Disease": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Epilepsy": {
+                "thresholds": {
+                    "PM2.5": 8,
+                    "PM10": 23,
+                    "O3": 51,
+                    "NO2": 13,
+                    "SO2": 20,
+                    "CO": 2.04
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.85,
+                    "combined_multiplier": 0.51,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Rheumatoid Arthritis / Autoimmune disorders": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Autoimmune disorders (Lupus etc.)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Post-chemotherapy (weakened immunity)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Occupational COPD / Emphysema (workers)": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Smoker / Ex-smoker": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Fatigue / Fibromyalgia": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Chronic Skin diseases (psoriasis)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 20,
+                    "O3": 45,
+                    "NO2": 11,
+                    "SO2": 18,
+                    "CO": 1.8
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.75,
+                    "combined_multiplier": 0.45,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Eye conditions (chronic conjunctivitis / cataract risk)": {
+                "thresholds": {
+                    "PM2.5": 7,
+                    "PM10": 22,
+                    "O3": 48,
+                    "NO2": 12,
+                    "SO2": 19,
+                    "CO": 1.92
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.8,
+                    "combined_multiplier": 0.48,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pregnancy \u2014 Asthma": {
+                "thresholds": {
+                    "PM2.5": 6,
+                    "PM10": 18,
+                    "O3": 39,
+                    "NO2": 10,
+                    "SO2": 16,
+                    "CO": 1.56
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.65,
+                    "combined_multiplier": 0.39,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            },
+            "Pregnancy \u2014 Hypertension / Gestational HTN": {
+                "thresholds": {
+                    "PM2.5": 5,
+                    "PM10": 16,
+                    "O3": 36,
+                    "NO2": 9,
+                    "SO2": 14,
+                    "CO": 1.44
+                },
+                "metadata": {
+                    "age_multiplier": 0.6,
+                    "category_multiplier": 0.6,
+                    "combined_multiplier": 0.36,
+                    "base_source": "WHO AQG 2021",
+                    "notes": "Conservative multipliers applied; clinical review recommended."
+                }
+            }
+        }
+    },
+    "sources": {
+        "WHO_AQG_2021": "https://www.who.int/publications/i/item/9789240034228",
+        "CPCB_NAAQS_2009": "https://cpcb.nic.in/upload/NAAQS_2019.pdf"
+    }
+}
